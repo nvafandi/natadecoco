@@ -18,7 +18,7 @@ const swaggerOptions = {
       version: "1.0.0",
       description: "API untuk login dengan JWT token",
     },
-    servers: [{ url: `http://localhost:${PORT}` }],
+    servers: [{ url: `http://103.176.78.24:${PORT}` }],
   },
   apis: ["./app.js"], // File yang berisi dokumentasi Swagger
 };
